@@ -7,5 +7,25 @@
             "email": "cgnetwork.nz@gmail.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "require-dev": {
+        "orchestra/testbench": "9999999-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cgnetwork\\Ease\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Cgnetwork\\Ease\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cgnetwork\\Ease\\EaseServiceProvider"
+            ]
+        }
+    }
 }
