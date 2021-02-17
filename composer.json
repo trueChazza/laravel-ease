@@ -1,0 +1,11 @@
+{
+    "name": "cgnetwork/ease",
+    "description": "",
+    "authors": [
+        {
+            "name": "Chaz Goodare",
+            "email": "cgnetwork.nz@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
