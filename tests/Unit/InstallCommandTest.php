@@ -9,7 +9,7 @@ class InstallCommandTest extends TestCase
 {
     protected string $filePath = 'tests/stubs/package.json';
 
-    protected $content;
+    protected array $content;
 
     protected function setUp(): void
     {
