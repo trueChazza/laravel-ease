@@ -3,6 +3,7 @@
 namespace Cgnetwork\Ease;
 
 use Cgnetwork\Ease\Console\InstallCommand;
+use Cgnetwork\Ease\Console\PublishCommand;
 use Illuminate\Support\ServiceProvider;
 
 class EaseServiceProvider extends ServiceProvider
@@ -20,13 +21,14 @@ class EaseServiceProvider extends ServiceProvider
 
         if ($this->app->runningInConsole()) {
 
-            $this->commands([
-                InstallCommand::class
-            ]);
-
             $this->publishes([
                 __DIR__.'/../config/ease.php' => config_path('ease.php'),
-            ], 'config');
+            ], 'ease');
+
+            $this->commands([
+                InstallCommand::class,
+                PublishCommand::class
+            ]);
         }
     }
 }
