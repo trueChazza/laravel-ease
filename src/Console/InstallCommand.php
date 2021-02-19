@@ -34,22 +34,22 @@ class InstallCommand extends Command
 
         copy(__DIR__.'/../../stubs/ease/index.vue', resource_path('js/pages/ease/index.vue'));
 
-        $this->updateNodeScripts(function ($scripts) {
+        $this->updateNodeScripts('package.json', function($scripts) {
             return [
                     'ease' => 'yarn --cwd vendor/cgnetwork/ease/vite vite'
                 ] + $scripts;
         });
     }
 
-    protected static function updateNodeScripts(callable $callback)
+    public static function updateNodeScripts(string $filePath, callable $callback)
     {
-        if (! file_exists(base_path('package.json'))) {
+        if (! file_exists(base_path($filePath))) {
             return;
         }
 
         $configurationKey = 'scripts';
 
-        $packages = json_decode(file_get_contents(base_path('package.json')), true);
+        $packages = json_decode(file_get_contents(base_path($filePath)), true);
 
         $packages[$configurationKey] = $callback(
             array_key_exists($configurationKey, $packages) ? $packages[$configurationKey] : [],
@@ -58,9 +58,14 @@ class InstallCommand extends Command
 
         ksort($packages[$configurationKey]);
 
+        self::updateFileContents($filePath, $packages);
+    }
+
+    public static function updateFileContents(string $filePath, array $content)
+    {
         file_put_contents(
-            base_path('package.json'),
-            json_encode($packages, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT).PHP_EOL
+            base_path($filePath),
+            json_encode($content, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT).PHP_EOL
         );
     }
 }
