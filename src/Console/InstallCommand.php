@@ -34,20 +34,18 @@ class InstallCommand extends Command
 
         copy(__DIR__.'/../../stubs/ease/index.vue', resource_path('js/pages/ease/index.vue'));
 
-        $this->updateNodeScripts('package.json', function($scripts) {
+        $this->updateJsonFile('package.json', 'scripts', function($scripts) {
             return [
-                    'ease' => 'yarn --cwd vendor/cgnetwork/ease/vite vite'
+                    'ease' => 'yarn vite --config vendor/cgnetwork/ease/vite/vite.config.js'
                 ] + $scripts;
         });
     }
 
-    public static function updateNodeScripts(string $filePath, callable $callback)
+    public static function updateJsonFile(string $filePath, string $configurationKey, callable $callback)
     {
         if (! file_exists(base_path($filePath))) {
             return;
         }
-
-        $configurationKey = 'scripts';
 
         $packages = json_decode(file_get_contents(base_path($filePath)), true);
 

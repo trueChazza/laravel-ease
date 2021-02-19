@@ -27,18 +27,18 @@ class InstallCommandTest extends TestCase
 
     public function test_it_can_update_node_scripts()
     {
-        InstallCommand::updateNodeScripts('tests/stubs/package.json', function($scripts) {
+        InstallCommand::updateJsonFile('tests/stubs/package.json', 'scripts', function($scripts) {
             return [
-                'someKey' => 'someValue'
+                'anotherScript' => 'npm run anotherScript'
             ] + $scripts;
         });
 
         $updated = json_decode(file_get_contents(base_path('tests/stubs/package.json')), true);
 
         $this->assertEquals([
-            "scripts" => [
-                "dev" => "npm run development",
-                "someKey" => "someValue"
+            'scripts' => [
+                'someScript' => 'npm run someScript',
+                'anotherScript' => 'npm run anotherScript'
             ]
         ], $updated);
     }

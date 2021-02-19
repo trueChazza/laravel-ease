@@ -1,5 +1,5 @@
 {
     "scripts": {
-        "dev": "npm run development"
+        "someScript": "npm run someScript"
     }
 }
