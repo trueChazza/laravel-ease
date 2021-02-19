@@ -1,6 +1,6 @@
 <?php
 
-namespace Cgnetwork\Ease\Tests\Unit;
+namespace Cgnetwork\Ease\Tests\Feature;
 
 use Cgnetwork\Ease\Console\InstallCommand;
 use Cgnetwork\Ease\Tests\TestCase;
