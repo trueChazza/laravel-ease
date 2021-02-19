@@ -5,6 +5,8 @@ import voie from 'vite-plugin-voie'
 export default defineConfig({
   plugins: [
       vue(),
-      voie(),
+      voie({
+          pagesDir: '../../../../resources/js/pages'
+      })
   ]
 })
