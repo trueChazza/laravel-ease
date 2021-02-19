@@ -6,7 +6,7 @@ use Cgnetwork\Ease\Tests\TestCase;
 
 class ExampleTest extends TestCase
 {
-    public function testBasicTest()
+    public function BasicTest()
     {
         $this->assertTrue(true);
     }
