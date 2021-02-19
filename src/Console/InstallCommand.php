@@ -3,6 +3,7 @@
 namespace Cgnetwork\Ease\Console;
 
 use Illuminate\Console\Command;
+use Illuminate\Filesystem\Filesystem;
 
 class InstallCommand extends Command
 {
@@ -27,6 +28,12 @@ class InstallCommand extends Command
      */
     public function handle()
     {
+        (new Filesystem)->ensureDirectoryExists(resource_path('js'));
+        (new Filesystem)->ensureDirectoryExists(resource_path('js/pages'));
+        (new Filesystem)->ensureDirectoryExists(resource_path('js/pages/ease'));
+
+        copy(__DIR__.'/../../stubs/ease/index.vue', resource_path('js/pages/ease/index.vue'));
+
         $this->updateNodeScripts(function ($scripts) {
             return [
                     'ease' => 'yarn --cwd vendor/cgnetwork/ease/vite vite'
