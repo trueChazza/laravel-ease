@@ -1,0 +1,7 @@
+{
+  "name": "laravel-ease",
+  "version": "0.0.1",
+  "repository": "git@gitlab.com:cgnetwork.nz/laravel-ease.git",
+  "author": "Chaz Goodare <cgnetwork.nz@gmail.com>",
+  "license": "MIT"
+}
