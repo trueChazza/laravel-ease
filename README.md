@@ -13,8 +13,8 @@ Powered by the amazing [Vite](https://vitejs.dev/) ⚡
 composer require cgnetwork/ease --dev
 ```
 
-After installing the package, you may execute the `php artisan ease:install` Artisan command.
-<br/>This command:
+After installing the package, you may execute the `php artisan ease:install` Artisan command which:
+
 * Adds an `ease` script to your project `package.json`
 * Publishes an `ease` directory to your project `resources/js/pages` directory.
 
