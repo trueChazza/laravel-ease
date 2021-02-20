@@ -16,7 +16,7 @@ composer require cgnetwork/ease --dev
 After installing the package, you may execute the `php artisan ease:install` Artisan command.
 <br/>This command will:
 * Add an `ease` script to your project `package.json`
-* Publish an `ease` directory to your project `/resources/js/pages` directory.
+* Publish an `ease` directory to your project `resources/js/pages` directory.
 
 ## Usage
 
@@ -32,9 +32,7 @@ After running the `ease` script, you may visit the provided route at `your-proje
 php artisan ease:publish
 ```
 
-Laravel Ease comes pre-configured and ready to go out of the box.
-<br/>
-Customize the config file `ease.php` by publishing to your config directory.
+Laravel Ease comes pre-configured and ready to go out of the box. Customize the config file `ease.php` by publishing to your config directory.
 
 ## Directory Based Routing
 
