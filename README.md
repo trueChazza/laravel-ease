@@ -38,7 +38,7 @@ Laravel Ease comes pre-configured and ready to go out of the box. Customize the 
 
 Under the hood, dynamic routing is provided and powered by the Vite plugin - [Voie](https://github.com/brattonross/vite-plugin-voie)
 
-To see all the possible route combinations, see [Voie - File System Routing](https://github.com/brattonross/vite-plugin-voie#file-system-routing)
+For all the possible route combinations, see [Voie - File System Routing](https://github.com/brattonross/vite-plugin-voie#file-system-routing)
 
 ## Contributing
 
