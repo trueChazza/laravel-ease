@@ -1,12 +1,12 @@
 {
     "name": "cgnetwork/ease",
-    "description": "",
-    "authors": [
-        {
-            "name": "Chaz Goodare",
-            "email": "cgnetwork.nz@gmail.com"
-        }
+    "description": "Lightning fast Vue component prototypes",
+    "keywords": [
+        "laravel",
+        "vite",
+        "vue"
     ],
+    "license": "MIT",
     "minimum-stability": "dev",
     "require-dev": {
         "orchestra/testbench": "9999999-dev"
