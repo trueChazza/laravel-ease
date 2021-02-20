@@ -48,4 +48,4 @@ Thank you for considering contributing to Laravel Ease! We welcome all pull requ
 
 ## License
 
-Laravel Ease is open-sourced software licensed under the [MIT license](LICENSE.md).
+Laravel Ease is open-sourced software licensed under the [MIT license](https://github.com/cgnetwork/laravel-ease/blob/master/LICENSE).
