@@ -26,6 +26,8 @@ yarn ease
 
 After running the `ease` script, you may visit the provided route at `your-project.domain/ease`
 
+![index.vue](https://raw.githubusercontent.com/cgnetwork/laravel-ease/master/docs/index.vue.png)
+
 ## Configuration
 
 ```bash
