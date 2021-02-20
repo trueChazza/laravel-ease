@@ -1,9 +1,9 @@
 ## Introduction
 
 Laravel Ease provides a batteries-included, simple starting point for building and quickly prototyping your application Vue components. 
-Styled with Tailwind, Laravel Ease publishes configuration to your application that can be easily customized based on your own application's needs.
+Laravel Ease publishes configuration to your application that can be easily customized based on your own application's needs.
 
-Laravel Ease is powered by the amazing [Vite](https://vitejs.dev/) ⚡
+Powered by the amazing [Vite](https://vitejs.dev/) ⚡
 
 Getting started couldn't be easier:
 
