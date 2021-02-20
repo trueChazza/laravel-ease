@@ -1,6 +1,6 @@
 ## Introduction
 
-Laravel Ease provides a batteries-included, simple starting point for building and quickly prototyping your application Vue components. 
+Laravel Ease provides a batteries-included, simple starting point for building and quickly prototyping your Laravel Vue components. 
 <br/>
 <br/>
 Directory based Vue routes, provides a dynamic playground to interact with your Vue components.
