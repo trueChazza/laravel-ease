@@ -24,7 +24,7 @@ After installing the package, you may execute the `php artisan ease:install` Art
 yarn ease
 ```
 
-After running the `ease` script, you may visit the provided route at `laravel-project.domain/ease`
+After running the `ease` script, you may visit the provided route at `your-laravel.project/ease`
 
 ![index.vue](https://raw.githubusercontent.com/cgnetwork/laravel-ease/master/docs/index.vue.png)
 
