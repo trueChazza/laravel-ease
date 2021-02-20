@@ -5,7 +5,7 @@ Laravel Ease publishes configuration to your application that can be easily cust
 
 Powered by the amazing [Vite](https://vitejs.dev/) ⚡
 
-Getting started couldn't be easier:
+## Get Started
 
 ```bash
 composer require cgnetwork/ease --dev
