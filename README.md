@@ -14,9 +14,9 @@ composer require cgnetwork/ease --dev
 ```
 
 After installing the package, you may execute the `php artisan ease:install` Artisan command.
-<br/>This command will:
-* Add an `ease` script to your project `package.json`
-* Publish an `ease` directory to your project `resources/js/pages` directory.
+<br/>This command:
+* Adds an `ease` script to your project `package.json`
+* Publishes an `ease` directory to your project `resources/js/pages` directory.
 
 ## Usage
 
