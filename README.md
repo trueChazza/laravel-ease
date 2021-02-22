@@ -1,6 +1,6 @@
 ## Introduction
 
-Powered by the amazing [Vite](https://vitejs.dev/) ⚡ Laravel Ease is an all-batteries-included, isolated sandbox in your application to rapidly build, experiment, and preview your Vue components.
+Powered by the amazing [Vite](https://vitejs.dev/) ⚡ Laravel Ease is a batteries-included, isolated sandbox in your application to rapidly build, experiment, and preview your Vue components.
 <br/>
 <br/>
 [Directory structured routing](https://github.com/cgnetwork/laravel-ease/blob/master/README.md#directory-structured-routing) means you can forget messy Vue route files, and focus on what really matters - building awesome components for your application.
