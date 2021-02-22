@@ -13,7 +13,7 @@
         <button @click="state.count++">count is: {{ state.count }}</button>
         <p>
             Edit
-            <code>resources/js/pages/ease/index.vue</code> to test hot module replacement.
+            <code>resources/js/laravel/ease/index.vue</code> to test hot module replacement.
         </p>
     </div>
 </template>
