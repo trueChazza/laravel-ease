@@ -1,27 +1,30 @@
 <template>
-    <div class="grid-container">
-        <template v-for="(route, index) in routes" :key="`route-${ index }`">
-
-            <router-link class="capitalize" :to="route.path" v-text="route.name" />
-        </template>
-    </div>
+    <sidebar-menu :menu="menu" />
 
     <router-view />
 </template>
 
-<script setup>
-import { computed } from 'vue'
-import { useRouter } from 'vue-router'
+<script>
+import 'vue-sidebar-menu/dist/vue-sidebar-menu.css'
+import { SidebarMenu } from 'vue-sidebar-menu'
 
-const routes = computed(() => useRouter().getRoutes())
+export default {
+    components: {
+        SidebarMenu
+    },
+    computed: {
+        menu() {
+            return [
+                {
+                    header: 'Navigation',
+                    hiddenOnCollapse: true
+                },
+                ...this.$router.getRoutes().map(route => ({
+                    href: route.path,
+                    title: route.name
+                }))
+            ]
+        }
+    }
+}
 </script>
-
-<style scoped>
-.grid-container {
-    display: grid;
-    grid: 20px / auto auto auto;
-}
-.capitalize {
-    text-transform: capitalize;
-}
-</style>

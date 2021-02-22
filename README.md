@@ -45,6 +45,8 @@ After installing the package, your project `resources/js` directory will have th
 resources/js/laravel/
   └── ease/
         └── index.vue
+        └── example/
+                └── index.vue
 ```
 
 that will result in a route configuration:
@@ -54,12 +56,17 @@ that will result in a route configuration:
   {
     path: '/ease',
     component: '/resources/js/laravel/ease/index.vue'
+  },
+  {
+    path: '/ease/example',
+    component: '/resources/js/laravel/ease/example/index.vue'
   }
 ]
 ```
-
-As a basic example, this could serve an initial setup. 
-<br/>For advanced route configuration, see the Vite plugin powering this under the hood - [Voie File System Routing](https://github.com/brattonross/vite-plugin-voie#file-system-routing)
+For convenience, all routes will appear in a sidebar for easy navigation.
+<br/>
+<br/>
+For advanced route configuration, see the Vite plugin powering this under the hood - [Voie File System Routing](https://github.com/brattonross/vite-plugin-voie#file-system-routing)
 
 ## Contributing
 
