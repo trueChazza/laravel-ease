@@ -39,7 +39,7 @@ php artisan ease:publish
 
 Laravel Ease comes pre-configured and ready to go out of the box. Customize the config file `ease.php` by publishing to your config directory.
 
-## File System Routing
+## Directory Structured Routing
 
 After installing the package, your project `resources/js` directory will have the provided `laravel/ease` example:
 
