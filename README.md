@@ -63,9 +63,11 @@ that will result in a route configuration:
   }
 ]
 ```
-For convenience, all routes will appear in a sidebar for easy navigation.
-<br/>
-<br/>
+
+For convenience, all routes will appear in a sidebar for easy navigation:
+
+![example.index.vue](https://raw.githubusercontent.com/cgnetwork/laravel-ease/master/docs/example.index.vue.png)
+
 For advanced route configuration, see the Vite plugin powering this under the hood - [Voie File System Routing](https://github.com/brattonross/vite-plugin-voie#file-system-routing)
 
 ## Contributing
