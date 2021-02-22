@@ -6,7 +6,7 @@ Powered by the amazing [Vite](https://vitejs.dev/) ⚡ Laravel Ease is a batteri
 [Directory structured routing](https://github.com/cgnetwork/laravel-ease/blob/master/README.md#directory-structured-routing) means you can forget messy Vue route files, and focus on what really matters - building awesome components for your application.
 <br/>
 <br/>
-Laravel Ease aims to provide a quick, easy solution to developing Vue components in isolation, driven through familiar Laravel configuration.
+Laravel Ease aims to provide a quick, easy solution to building Vue components in isolation, driven through familiar Laravel configuration.
 
 ## Installation
 
