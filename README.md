@@ -3,7 +3,7 @@
 Powered by the amazing [Vite](https://vitejs.dev/) ⚡ Laravel Ease is an all-batteries-included, isolated sandbox in your application to build, experiment, and preview your Vue components.
 <br/>
 <br/>
-Entirely file system based Vue routes, means you can forget the setup, and focus on what really matters - building awesome components for your application.
+Directory structured Vue routes, means you can forget messy route files, and focus on what really matters - building awesome components for your application.
 <br/>
 <br/>
 Laravel Ease aims to provide a quick, easy solution to prototyping Vue components in isolation, driven through familiar Laravel configuration.
