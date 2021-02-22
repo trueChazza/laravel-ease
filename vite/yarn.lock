@@ -602,7 +602,14 @@ vue-router@^4.0.0-beta.4:
   resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-4.0.3.tgz#8b26050c88b2dec7e27a88835f71046b365823ec"
   integrity sha512-AD1OjtVPyQHTSpoRsEGfPpxRQwhAhxcacOYO3zJ3KNkYP/r09mileSp6kdMQKhZWP2cFsPR3E2M3PZguSN5/ww==
 
-vue@^3.0.5:
+vue-sidebar-menu@^5.0.0-alpha.8:
+  version "5.0.0-alpha.8"
+  resolved "https://registry.yarnpkg.com/vue-sidebar-menu/-/vue-sidebar-menu-5.0.0-alpha.8.tgz#ca4f4f1e43761ce0deee8d109bb3416900efca82"
+  integrity sha512-trgsN8kEpa2b4Zqgjbkqx+zzbCJsv6AtapPis+8JtnF/GkNYl9oDXTi4Nizy4/XLiHUDgNKjV/ta/LbhuLqHPQ==
+  dependencies:
+    vue "^3.0.2"
+
+vue@^3.0.2, vue@^3.0.5:
   version "3.0.5"
   resolved "https://registry.yarnpkg.com/vue/-/vue-3.0.5.tgz#de1b82eba24abfe71e0970fc9b8d4b2babdc3fe1"
   integrity sha512-TfaprOmtsAfhQau7WsomXZ8d9op/dkQLNIq8qPV3A0Vxs6GR5E+c1rfJS1SDkXRQj+dFyfnec7+U0Be1huiScg==
