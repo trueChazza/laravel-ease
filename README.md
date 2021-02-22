@@ -14,10 +14,12 @@ Laravel Ease aims to provide a quick, easy solution to prototyping Vue component
 composer require cgnetwork/ease --dev
 ```
 
-After installing the package, you may execute the `php artisan ease:install` Artisan command that:
+After installing the package, you may execute the `php artisan ease:install` Artisan command.
+
+The install command:
 
 * Adds an `ease` script to your project `package.json`
-* Publishes an `ease` directory to your project `resources/js` directory.
+* Publishes a `laravel/ease` directory to your project `resources/js`
 
 ## Usage
 
