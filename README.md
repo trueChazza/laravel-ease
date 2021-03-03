@@ -18,8 +18,14 @@ After installing the package, you may execute the `php artisan ease:install` Art
 
 The install command:
 
+* Adds an `ease:install` script to your project `package.json`
 * Adds an `ease` script to your project `package.json`
 * Publishes a `laravel/ease` directory to your project `resources/js`
+
+Finally, to complete installation:
+```bash
+yarn ease:install
+```
 
 ## Usage
 
@@ -27,7 +33,7 @@ The install command:
 yarn ease
 ```
 
-After running the `ease` script, you may visit the provided route at `your-laravel.project/ease`
+After running the `ease` script, you may visit the provided route at `/ease`
 
 ![index.vue](https://raw.githubusercontent.com/cgnetwork/laravel-ease/master/docs/index.vue.png)
 
