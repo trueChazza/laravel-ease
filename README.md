@@ -18,9 +18,8 @@ After installing the package, you may execute the `php artisan ease:install` Art
 
 The install command:
 
-* Adds an `ease:install` script to your project `package.json`
-* Adds an `ease` script to your project `package.json`
-* Publishes a `laravel/ease` directory to your project `resources/js`
+* Adds `ease` scripts to your project `package.json`
+* Publishes `laravel/ease` directory to your project `resources/js`
 
 Finally, to complete installation:
 ```bash
