@@ -29,7 +29,8 @@ class InstallCommandTest extends TestCase
     {
         InstallCommand::updateJsonFile('tests/stubs/package.json', 'scripts', function($scripts) {
             return [
-                'anotherScript' => 'npm run anotherScript'
+                'anotherScript' => 'npm run anotherScript',
+                'yetAnotherScript' => 'npm run yetAnotherScript'
             ] + $scripts;
         });
 
@@ -38,7 +39,8 @@ class InstallCommandTest extends TestCase
         $this->assertEquals([
             'scripts' => [
                 'someScript' => 'npm run someScript',
-                'anotherScript' => 'npm run anotherScript'
+                'anotherScript' => 'npm run anotherScript',
+                'yetAnotherScript' => 'npm run yetAnotherScript'
             ]
         ], $updated);
     }

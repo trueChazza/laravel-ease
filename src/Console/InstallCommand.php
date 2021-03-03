@@ -38,6 +38,7 @@ class InstallCommand extends Command
 
         $this->updateJsonFile('package.json', 'scripts', function($scripts) {
             return [
+                    'ease:install' => 'yarn --cwd vendor/cgnetwork/ease/vite',
                     'ease' => 'yarn --cwd vendor/cgnetwork/ease/vite vite'
                 ] + $scripts;
         });
