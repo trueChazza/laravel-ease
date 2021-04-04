@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [
       vue(),
       voie({
-          pagesDir: '../../../../resources/js/laravel'
+          pagesDir: '../../../../resources/js/components'
       })
   ]
 })
