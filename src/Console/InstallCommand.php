@@ -29,12 +29,12 @@ class InstallCommand extends Command
     public function handle()
     {
         (new Filesystem)->ensureDirectoryExists(resource_path('js'));
-        (new Filesystem)->ensureDirectoryExists(resource_path('js/laravel'));
-        (new Filesystem)->ensureDirectoryExists(resource_path('js/laravel/ease'));
-        (new Filesystem)->ensureDirectoryExists(resource_path('js/laravel/ease/example'));
+        (new Filesystem)->ensureDirectoryExists(resource_path('js/components'));
+        (new Filesystem)->ensureDirectoryExists(resource_path('js/components/ease'));
+        (new Filesystem)->ensureDirectoryExists(resource_path('js/components/ease/example'));
 
-        copy(__DIR__.'/../../stubs/laravel/ease/index.vue', resource_path('js/laravel/ease/index.vue'));
-        copy(__DIR__.'/../../stubs/laravel/ease/example/index.vue', resource_path('js/laravel/ease/example/index.vue'));
+        copy(__DIR__ . '/../../stubs/ease/index.vue', resource_path('js/components/ease/index.vue'));
+        copy(__DIR__ . '/../../stubs/ease/example/index.vue', resource_path('js/components/ease/example/index.vue'));
 
         $this->updateJsonFile('package.json', 'scripts', function($scripts) {
             return [
