@@ -20,7 +20,7 @@ After installing the package, you may execute the `php artisan ease:install` Art
 The install command:
 
 * Adds `ease` scripts to your project `package.json`
-* Publishes `ease` directory to your project `resources/js/components`
+* Publishes `EaseComponent.vue` to your project `resources/js/components`
 
 Finally, to complete installation:
 ```bash
