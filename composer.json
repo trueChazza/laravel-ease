@@ -9,7 +9,7 @@
     "license": "MIT",
     "minimum-stability": "dev",
     "require-dev": {
-        "orchestra/testbench": "9999999-dev"
+        "orchestra/testbench": "v6.0.0"
     },
     "autoload": {
         "psr-4": {
