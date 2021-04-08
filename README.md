@@ -35,8 +35,6 @@ yarn ease
 
 After running the `ease` script, you may visit the provided route at `/ease`
 
-![index.vue](https://raw.githubusercontent.com/cgnetwork/laravel-ease/master/docs/index.vue.png)
-
 ## Configuration
 
 ```bash
@@ -67,7 +65,7 @@ that will result in a route configuration:
 
 Easily navigate components from the sidebar:
 
-![example.index.vue](https://raw.githubusercontent.com/cgnetwork/laravel-ease/master/docs/example.index.vue.png)
+![example.index.vue](https://raw.githubusercontent.com/cgnetwork/laravel-ease/master/docs/EaseComponent.png)
 
 ## Contributing
 
