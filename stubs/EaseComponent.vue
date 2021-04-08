@@ -1,5 +1,5 @@
 <template>
-    <div class="index">
+    <div class="text-center">
 
         <img alt="Vue logo" src="https://raw.githubusercontent.com/vitejs/vite/main/packages/create-app/template-vue/src/assets/logo.png" />
 
@@ -13,7 +13,7 @@
         <button @click="state.count++">count is: {{ state.count }}</button>
         <p>
             Edit
-            <code>resources/js/laravel/ease/index.vue</code> to test hot module replacement.
+            <code>resources/js/components/EaseComponent.vue</code> to test hot module replacement.
         </p>
     </div>
 </template>
@@ -28,16 +28,7 @@ const state = reactive({
 </script>
 
 <style scoped>
-.index {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
-    margin-top: 60px;
-}
-
-a {
-    color: #42b983;
+img {
+    display: unset;
 }
 </style>
