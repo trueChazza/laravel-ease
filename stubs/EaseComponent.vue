@@ -6,7 +6,6 @@
         <h1>{{ state.message }}</h1>
 
         <p>
-            <a href="https://vitejs.dev/guide/features.html" target="_blank">Vite Documentation</a> |
             <a href="https://v3.vuejs.org/" target="_blank">Vue 3 Documentation</a>
         </p>
 
@@ -22,7 +21,7 @@
 import { reactive } from 'vue'
 
 const state = reactive({
-    message: 'Hello Vue 3 + Vite',
+    message: 'Hello Vue 3',
     count: 0
 })
 </script>
