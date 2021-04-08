@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [
       vue(),
       voie({
-          pagesDir: '../../../../resources/js/components'
+          pagesDir: '../../../../resources/js/components/ease'
       })
   ]
 })
