@@ -1,14 +1,14 @@
 ## Introduction
 
-Ever found yourself wanting to story your Vue components, but without the overhead of tools such as [Storybook?](https://storybook.js.org/)
+Ever found yourself wanting to story your Vue components, but without the overhead brought in from tools like [Storybook?](https://storybook.js.org/)
 <br/>
-Laravel Ease provides a simple, yet powerful way to quickly develop Vue components - isolated from your application.
+Laravel Ease provides a simple, yet powerful way to quickly develop Vue components - totally isolated from your application.
 <br/>
 <br/>
 Think [Storybook](https://storybook.js.org/) - but without the steroids.
 <br/>
 <br/>
-Quick and easy to set up, with familiar Laravel driven configuration, makes Vue component development a cinch.
+Quick and easy to set up, with familiar Laravel driven configuration, now makes Vue component development a cinch.
 
 ## Installation
 
@@ -52,10 +52,7 @@ After installing the package, your project `resources/js/components` directory w
 
 ```
 resources/js/components/
-  └── ease/
-        └── index.vue
-        └── example/
-                └── index.vue
+  └── EaseComponent.vue
 ```
 
 that will result in a route configuration:
@@ -63,12 +60,8 @@ that will result in a route configuration:
 ```js
 [
   {
-    path: '/ease',
-    component: '/resources/js/components/ease/index.vue'
-  },
-  {
-    path: '/ease/example',
-    component: '/resources/js/components/ease/example/index.vue'
+    path: '/easecomponent',
+    component: '/resources/js/components/EaseComponent.vue'
   }
 ]
 ```
