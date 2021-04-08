@@ -30,9 +30,9 @@ class InstallCommand extends Command
     {
         (new Filesystem)->ensureDirectoryExists(resource_path('js'));
         (new Filesystem)->ensureDirectoryExists(resource_path('js/components'));
-        (new Filesystem)->ensureDirectoryExists(resource_path('js/components'));
+        (new Filesystem)->ensureDirectoryExists(resource_path('js/components/ease'));
 
-        copy(__DIR__ . '/../../stubs/EaseComponent.vue', resource_path('js/components/EaseComponent.vue'));
+        copy(__DIR__ . '/../../stubs/ease/EaseComponent.vue', resource_path('js/components/ease/EaseComponent.vue'));
 
         $this->updateJsonFile('package.json', 'scripts', function($scripts) {
             return [

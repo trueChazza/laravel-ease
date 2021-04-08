@@ -1,7 +1,6 @@
 ## Introduction
 
 Ever found yourself wanting to story your Vue components, but without the overhead brought in from tools like [Storybook?](https://storybook.js.org/)
-<br/>
 Laravel Ease provides a simple, yet powerful way to quickly develop Vue components - totally isolated from your application.
 <br/>
 <br/>
