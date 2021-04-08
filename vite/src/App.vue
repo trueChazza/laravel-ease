@@ -1,30 +1,16 @@
 <template>
-    <sidebar-menu :menu="menu" />
+    <base-layout>
 
-    <router-view />
+        <router-view />
+    </base-layout>
 </template>
 
 <script>
-import 'vue-sidebar-menu/dist/vue-sidebar-menu.css'
-import { SidebarMenu } from 'vue-sidebar-menu'
+import BaseLayout from './BaseLayout.vue'
 
 export default {
     components: {
-        SidebarMenu
-    },
-    computed: {
-        menu() {
-            return [
-                {
-                    header: 'Navigation',
-                    hiddenOnCollapse: true
-                },
-                ...this.$router.getRoutes().map(route => ({
-                    href: route.path,
-                    title: route.name
-                }))
-            ]
-        }
+        BaseLayout
     }
 }
 </script>

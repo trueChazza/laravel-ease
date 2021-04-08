@@ -5,13 +5,15 @@
         "serve": "vite preview"
     },
     "dependencies": {
+        "autoprefixer": "^10.2.5",
+        "postcss": "^8.2.9",
+        "tailwindcss": "^2.0.4",
         "vue": "^3.0.5"
     },
     "devDependencies": {
         "@vitejs/plugin-vue": "^1.1.4",
         "@vue/compiler-sfc": "^3.0.5",
         "vite": "^2.0.0",
-        "vite-plugin-voie": "^0.7.3",
-        "vue-sidebar-menu": "^5.0.0-alpha.8"
+        "vite-plugin-voie": "^0.7.3"
     }
 }
