@@ -50,7 +50,7 @@ Laravel Ease comes pre-configured and ready to go out of the box. Customize the 
 After installing the package, your project `resources/js/components` directory will have the provided `ease` example:
 
 ```
-resources/js/components/ease
+resources/js/components
   └── EaseComponent.vue
 ```
 
@@ -59,8 +59,8 @@ that will result in a route configuration:
 ```js
 [
   {
-    path: '/ease/easecomponent',
-    component: '/resources/js/components/ease/EaseComponent.vue'
+    path: '/easecomponent',
+    component: '/resources/js/components/EaseComponent.vue'
   }
 ]
 ```
