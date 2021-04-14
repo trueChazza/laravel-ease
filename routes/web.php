@@ -2,10 +2,5 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/ease', function() {
-    return view('ease::index');
-})->name('ease.index');
-
-Route::get('/ease/{any}', function() {
-    return view('ease::index');
-})->name('ease.show');
+Route::view('/ease', 'ease::index');
+Route::view('/ease/{path?}', 'ease::index')->where('path', '.*');
