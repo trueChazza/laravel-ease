@@ -57,7 +57,7 @@ that will result in a route configuration:
 ```js
 [
   {
-    path: '/easecomponent',
+    path: '/ease/easecomponent',
     component: '/resources/js/components/EaseComponent.vue'
   }
 ]
