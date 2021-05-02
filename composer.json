@@ -1,6 +1,6 @@
 {
     "name": "cgnetwork/ease",
-    "description": "Lightning fast Vue component prototypes",
+    "description": "Develop isolated Vue components lightning fast ⚡ in Laravel",
     "keywords": [
         "laravel",
         "vite",

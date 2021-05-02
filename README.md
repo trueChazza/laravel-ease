@@ -24,13 +24,13 @@ The install command:
 
 Finally, to complete installation:
 ```bash
-yarn ease:install
+npm run ease:install
 ```
 
 ## Usage
 
 ```bash
-yarn ease
+npm run ease
 ```
 
 After running the `ease` script, you may visit the provided route at `/ease`
