@@ -15,12 +15,16 @@ Quick and easy to set up, with familiar Laravel driven configuration, now makes 
 composer require cgnetwork/ease --dev
 ```
 
-After installing the package, you may execute the `php artisan ease:install` Artisan command.
+After installing the package, you may execute the Artisan install command:
 
-The install command:
+```bash
+php artisan ease:install
+```
 
-* Adds `ease` scripts to your project `package.json`
-* Publishes `EaseComponent.vue` to your project `resources/js/components`
+The Artisan install command will:
+
+* Add `ease` scripts to your project `package.json`
+* Publish `EaseComponent.vue` to your project `resources/js/components`
 
 Finally, to complete installation:
 ```bash
