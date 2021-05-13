@@ -30,4 +30,8 @@ const state = reactive({
 img {
     display: unset;
 }
+
+.text-center {
+    text-align: center;
+}
 </style>
