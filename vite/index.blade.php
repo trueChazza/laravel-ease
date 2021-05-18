@@ -6,6 +6,10 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
         <title>{{ config('ease.name', 'Ease') }}</title>
+
+        @foreach(config('ease.stylesheets') as $stylesheet)
+            <link href="{{ $stylesheet }}" rel="stylesheet">
+        @endforeach
     </head>
     <body>
         <div id="app"></div>
