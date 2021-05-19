@@ -56,7 +56,7 @@ resources/js/components
   └── EaseComponent.vue
 ```
 
-that will result in a route configuration:
+resulting in a route configuration:
 
 ```js
 [
@@ -67,7 +67,7 @@ that will result in a route configuration:
 ]
 ```
 
-Easily navigate components from the sidebar:
+with easy component access from the sidebar:
 
 ![example.index.vue](https://raw.githubusercontent.com/cgnetwork/laravel-ease/master/docs/EaseComponent.png)
 
