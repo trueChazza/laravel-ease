@@ -1,13 +1,14 @@
 ## Introduction
 
-Ever found yourself wanting to story your Vue components, but without the overhead brought in from tools like [Storybook?](https://storybook.js.org/)
-Laravel Ease provides a simple, yet powerful way to quickly develop Vue components - totally isolated from your application.
+Ever found yourself wanting to story your [Vue](https://vuejs.org/) components, but without the overhead from tools like [Storybook](https://storybook.js.org/)?
+<br/>
+Laravel Ease provides a simple, yet powerful way to quickly develop, view, and gauge your [Vue](https://vuejs.org/) components - safely isolated from your application.
 <br/>
 <br/>
-Think [Storybook](https://storybook.js.org/) - but without the steroids.
+Think [Storybook](https://storybook.js.org/) - but hold the steroids!
 <br/>
 <br/>
-Quick and easy to set up, with familiar Laravel driven configuration, now makes Vue component development a cinch.
+Quick and easy to set up, with familiar Laravel driven configuration, now makes [Vue](https://vuejs.org/) component development a cinch.
 
 ## Installation
 
@@ -37,15 +38,7 @@ npm run ease:install
 npm run ease
 ```
 
-After running the `ease` script, you may visit the provided route at `/ease`
-
-## Configuration
-
-```bash
-php artisan ease:publish
-```
-
-Laravel Ease comes pre-configured and ready to go out of the box. Customize the config file `ease.php` by publishing to your config directory.
+Running the `ease` script will start your `ease` server, which you can reach at the provided route `/ease`
 
 ## Directory Structured Routing
 
@@ -67,9 +60,24 @@ resulting in a route configuration:
 ]
 ```
 
-with easy component access from the sidebar:
+giving you easy component access from your sidebar:
 
 ![example.index.vue](https://raw.githubusercontent.com/cgnetwork/laravel-ease/master/docs/EaseComponent.png)
+
+## Configuration
+
+`ease` exposes environment variables useful for customisation:
+
+```bash
+EASE_NAME=Ease
+EASE_SERVER_URL=http://localhost:3000
+```
+
+Pre-configured and ready to go out of the box, you can fully customize `ease` to your liking by publishing [ease.php](https://github.com/cgnetwork/laravel-ease/blob/master/config/ease.php)  to your config directory:
+
+```bash
+php artisan ease:publish
+```
 
 ## Contributing
 

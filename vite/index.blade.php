@@ -7,13 +7,13 @@
 
         <title>{{ config('ease.name', 'Ease') }}</title>
 
-        @foreach(config('ease.stylesheets') as $stylesheet)
-            <link href="{{ $stylesheet }}" rel="stylesheet">
+        @foreach(config('ease.stylesheet_urls') as $url)
+            <link href="{{ $url }}" rel="stylesheet">
         @endforeach
     </head>
     <body>
         <div id="app"></div>
 
-        <script type="module" src="{{ config('ease.url') }}/src/main.js"></script>
+        <script type="module" src="{{ config('ease.server_url') }}/src/main.js"></script>
     </body>
 </html>
