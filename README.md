@@ -60,7 +60,7 @@ resulting in a route configuration:
 ]
 ```
 
-giving you easy component access from your sidebar:
+with easy component access from your sidebar:
 
 ![example.index.vue](https://raw.githubusercontent.com/cgnetwork/laravel-ease/master/docs/EaseComponent.png)
 
