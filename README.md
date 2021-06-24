@@ -60,7 +60,7 @@ resulting in a route configuration:
 ]
 ```
 
-placing components front and center:
+placing your components front and center:
 
 ![example.index.vue](https://raw.githubusercontent.com/cgnetwork/laravel-ease/master/docs/EaseComponent.png)
 
