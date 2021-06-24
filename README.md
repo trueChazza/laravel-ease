@@ -2,13 +2,13 @@
 
 Ever found yourself wanting to story your [Vue](https://vuejs.org/) components, but without the overhead from tools like [Storybook](https://storybook.js.org/)?
 <br/>
-Laravel Ease provides a simple, yet powerful way to quickly develop, view, and gauge your [Vue](https://vuejs.org/) components - safely isolated from your application.
+Laravel Ease provides a simple, yet powerful way to quickly develop, view, and gauge your Vue components - safely isolated from your application.
 <br/>
 <br/>
-Think [Storybook](https://storybook.js.org/) - but hold the steroids!
+Think Storybook - but hold the steroids!
 <br/>
 <br/>
-Quick and easy to set up, with familiar Laravel driven configuration, now makes [Vue](https://vuejs.org/) component development a cinch.
+Quick and easy to set up, with familiar Laravel driven configuration, now makes Vue component development a cinch.
 
 ## Installation
 
