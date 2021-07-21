@@ -1,10 +1,11 @@
-<h3 align="center">Special Sponsors</h3>
-
-<p align="center">
+<div align="center">
+  
+  ## Special Sponsors
+  
   <a href="https://whatarethose.ai/" target="_blank">
     whatarethose.ai
   </a>
-</p>
+</div>
 
 ## Introduction
 
