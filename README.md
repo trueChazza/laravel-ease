@@ -1,3 +1,6 @@
+> Due to resource constraints, this project has been abandoned.
+> Please accept our apologies for any inconvenience.
+
 ## Introduction
 
 Ever found yourself wanting to story your [Vue](https://vuejs.org/) components, but without the overhead from tools like [Storybook](https://storybook.js.org/)?
